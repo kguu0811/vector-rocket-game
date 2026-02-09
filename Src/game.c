@@ -2,7 +2,7 @@
 #include "game.h"
 
 #define BLOCK_WIDTH   6
-#define BLOCK_HEIGHT  27
+#define BLOCK_HEIGHT  30
 
 /* Initialise ship state */
 void game_init(Ship *ship)
@@ -23,14 +23,6 @@ void game_apply_rules(Ship *ship, Vec2 target)
 
     if (speed > MAX_SPEED) {
         printf("WARNING: Speed too high (%.2f)\n", speed);
-    }
-
-    /* ---- Overshoot check ---- */
-    Vec2 to_target = vec_sub(target, ship->position);
-    float approach = vec_dot(ship->velocity, to_target);
-
-    if (approach < 0.0f) {
-        printf("WARNING: Overshoot detected\n");
     }
 }
 
