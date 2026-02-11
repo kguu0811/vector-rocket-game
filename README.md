@@ -41,7 +41,7 @@ This ensures rendered rocket rotates according to its actual trajectory.
 
 ## Screenshots
 
-! [Rocket Game Screenshot] (assets/Rocket_Game.png)
+![Rocket Game Screenshot](assets/Rocket_Game.png)
 
 ## Build
 
