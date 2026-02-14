@@ -41,24 +41,19 @@ This ensures rendered rocket rotates according to its actual trajectory.
 
 ## Screenshots
 
-![Rocket Game Screenshot](assets/Rocket_Game.png)
+<img src="assets/Rocket_Game.png" alt="Rocket Game" width="300"/><br>
 
-## Build
+## Build/Flash
 
-''' bash
+``` bash
+make clean
 make
-'''
-
-## Run
-
-''' bash
 ./build/main
-'''
+```
 
 ## Tools and Technologies
 - C (modular design)
 - raylib (graphics and input)
-- Git & Github (version control)
 - macOs and Terminal
 
 ## Project structure
